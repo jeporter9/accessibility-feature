@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessibility Feature - Theme Toggle</title>
+    <meta name="author" content="James Porter">
+    <meta name="description" content="This page includes content assisted by AI tools.">
+    <title>Theme toggle feature by James Porter</title>
     <style>
         body {
             margin: 0;
@@ -84,13 +86,11 @@
             console.log('Button clicked!');
 
             const currentTheme = localStorage.getItem('theme');
+            // Add logic to switch between themes (Assisted by CoPilot)
             if (currentTheme === 'dark') {
                 document.body.classList.remove('dark');
-                localStorage.setItem('theme', ''); // Change theme to empty
-                //document.body.classList.add('light-theme');
-                //localStorage.setItem('theme', 'light'); // Change theme to light
+                localStorage.setItem('theme', ''); // Change theme to empty                
             } else {
-                //document.body.classList.remove('light-theme');
                 document.body.classList.add('dark');
                 localStorage.setItem('theme', 'dark'); // Change theme to dark
             }
@@ -99,8 +99,6 @@
         // Call the function when a button is clicked
         button.addEventListener('click', toggleTheme);
 
-        // Save a value to localStorage
-        //localStorage.setItem('theme', 'dark');
 
         // Retrieve the value
         const theme = localStorage.getItem('theme');

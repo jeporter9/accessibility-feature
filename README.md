@@ -13,3 +13,14 @@ This repository contains the starter files for the **Accessibility Feature Assig
 - Push your changes to your GitHub repo.
 - Publish changes to GitHub Pages using the feature branch as the source for live testing.
 - Submit a pull request to propose changes for review.
+
+## Ethical Use of AI
+
+- CoPilot was used to implement the javascript-based theme selector.
+
+## Changes
+
+- Added Meta tags for author and description.
+- Updated the title.
+- Implemented a functional javascript-based theme toggle feature.
+- Implemented localStorage to save the last selected theme.
