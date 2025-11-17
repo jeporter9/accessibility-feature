@@ -24,3 +24,15 @@ This repository contains the starter files for the **Accessibility Feature Assig
 - Updated the title.
 - Implemented a functional javascript-based theme toggle feature.
 - Implemented localStorage to save the last selected theme.
+- Fixed an validation issue:
+    from: 
+    <div id="theme-toggle-container">
+        <span class="icon" aria-label="Accessibility Icon"></span>
+    </div>
+
+    to:  
+    <div id="theme-toggle-container">
+        <span class="icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Accessibility Icon</span>
+    </div>
+    -- Added css for the visually-hidden class
