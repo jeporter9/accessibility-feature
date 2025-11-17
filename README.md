@@ -22,7 +22,7 @@ This repository contains the starter files for the **Accessibility Feature Assig
 
 - Added Meta tags for author and description.
 - Updated the title.
-- Implemented a functional javascript-based theme toggle feature.
+- Implemented a functional javascript-based light/dark theme toggle feature.
 - Implemented localStorage to save the last selected theme.
 - Fixed an validation issue:
     from: 
